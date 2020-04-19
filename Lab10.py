@@ -16,11 +16,11 @@ class SwimmingPool:
         return SwimmingPool.chlorine_concentration
 
     def __str__(self):
-        return "SwimmingPool adress is " + str(self.address) + "\n" + \
+        return "SwimmingPool address is " + str(self.address) + "\n" + \
                "Water Capacity in litres is " + str(self.water_capacity_in_litres) + "\n" + \
                "People Capacity is " + str(self.people_capacity) + "\n" + \
                "Depth is " + str(self.depth_in_metres) + "\n" + \
-               "Lenght is " + str(self.length_in_metres) + "\n" + \
+               "Length is " + str(self.length_in_metres) + "\n" + \
                "Width is " + str(self.width_in_metres) + "\n"
 
     def __del__(self):
