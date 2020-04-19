@@ -29,9 +29,9 @@ class SwimmingPool:
     @staticmethod
     def main():
         print()
-        swimming_pool1 = SwimmingPool("Hata Marana", 1000000, 1, 100, 100, 100)
-        swimming_pool2 = SwimmingPool("Hata Osadu", 1000000, 10, 100, 100, 100)
-        swimming_pool3 = SwimmingPool("Hata Viti", 100000000000, 1, 1000, 1000, 1000)
+        swimming_pool1 = SwimmingPool("Hata Marana")
+        swimming_pool2 = SwimmingPool("Hata Osadu", 10000, 10)
+        swimming_pool3 = SwimmingPool("Hata Viti", 1000000, 1, 10, 100, 100)
         print(swimming_pool1.__str__())
         print(swimming_pool2.__str__())
         print(swimming_pool3.__str__())
