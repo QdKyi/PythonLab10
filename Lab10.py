@@ -1,3 +1,4 @@
+
 class SwimmingPool:
     
     chlorine_concentration = 7
@@ -24,7 +25,7 @@ class SwimmingPool:
                "Width is " + str(self.width_in_metres) + "\n"
 
     def __del__(self):
-        return
+        pass
 
     @staticmethod
     def main():
@@ -32,9 +33,9 @@ class SwimmingPool:
         swimming_pool1 = SwimmingPool("Hata Marana")
         swimming_pool2 = SwimmingPool("Hata Osadu", 10000, 10)
         swimming_pool3 = SwimmingPool("Hata Viti", 1000000, 1, 10, 100, 100)
-        print(swimming_pool1.__str__())
-        print(swimming_pool2.__str__())
-        print(swimming_pool3.__str__())
+        swimmingpools = [swimming_pool1, swimming_pool2, swimming_pool3]
+        for x in swimmingpools:
+            print(x)
 
 
 if __name__ == '__main__':
